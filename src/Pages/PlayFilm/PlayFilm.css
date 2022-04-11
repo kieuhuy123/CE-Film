@@ -1,0 +1,69 @@
+.video-react {
+  max-width: 90% !important;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.play-title {
+  margin-bottom: 20px;
+}
+.back {
+  margin-top: 10px;
+  text-align: end;
+}
+.back svg {
+  margin-right: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+.back a {
+  color: var(--main-color);
+}
+/*  */
+.comment-header {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comment-title {
+  color: var(--main-color);
+  margin-right: 50px;
+}
+
+.comment-wrapper {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 800px;
+}
+.collection.w-button {
+  border-radius: 5px;
+}
+.collection svg {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.section {
+  margin-top: 50px;
+}
+.movies-slide .slick-slide {
+  padding: 10px;
+}
+/* .dropdown {
+  margin-top: 20px;
+}
+.dropdown .w-button {
+  width: 100%;
+  display: flex;
+} */
+@media screen and (max-width: 992px) {
+  .video-react {
+    padding-top: 56.25% !important;
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .comment-header img {
+    height: 30px;
+  }
+}
